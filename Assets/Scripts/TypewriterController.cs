@@ -210,7 +210,8 @@ public class TypewriterController : MonoBehaviour
 				{LcpManController.Activities.LeaveHouse, new string[]{"leave","bye"} },
 				{LcpManController.Activities.Exercise, new string[]{"exercise"} },
 				{LcpManController.Activities.WashDishes, new string[]{"dishes"} },
-				{LcpManController.Activities.BrushTeeth, new string[]{"brush", "teeth"} }
+				{LcpManController.Activities.BrushTeeth, new string[]{"brush", "teeth"} },
+				{LcpManController.Activities.Toilet, new string[]{"toilet"}}
 			};
 
 		input = input.ToLower();

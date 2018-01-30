@@ -337,6 +337,8 @@ public class LcpManController : MonoBehaviour {
         if (currentActivity == Activities.Closet)
         {
             GameObject.Find("Closet Door").GetComponent<DoorController>().state = DoorController.DoorStates.open;
+			GameObject.Find("character").GetComponentInChildren<SkinnedMeshRenderer>().materials[1].color =
+				new Color(UnityEngine.Random.Range(0f, 1f), UnityEngine.Random.Range(0f, 1f), UnityEngine.Random.Range(0f, 1f));
         }
 
         if (currentActivity == Activities.Refrigerator)
